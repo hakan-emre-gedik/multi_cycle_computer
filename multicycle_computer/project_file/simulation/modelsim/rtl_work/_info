@@ -1,0 +1,429 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/simulation/modelsim
+valu_unit
+Z1 !s110 1654458718
+!i10b 1
+!s100 >?=6DJE`m;WUD]_C`YCz12
+I:PXLdLOb?bZ>];eV2^`IQ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1651883027
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/alu_unit.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/alu_unit.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1654458718.000000
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/alu_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/alu_unit.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file
+Z7 tCvgOpt 0
+vbarrel_shifter
+R1
+!i10b 1
+!s100 De3jCN6o2W<XooXARg=h71
+IWC;TBDz2Ri4z4Pl`9W^lE3
+R2
+R0
+w1653608947
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/barrel_shifter.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/barrel_shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/barrel_shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/barrel_shifter.v|
+!i113 1
+R5
+R6
+R7
+vconstant_value_gen
+R1
+!i10b 1
+!s100 TPHYnRd][Qbn3iz2ZO5Qo3
+Ici0ZRg0V2]R5g;hFBR3W_1
+R2
+R0
+w1653508749
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/constant_value_gen.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/constant_value_gen.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/constant_value_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/constant_value_gen.v|
+!i113 1
+R5
+R6
+R7
+vdata_memory
+R1
+!i10b 1
+!s100 _BVJaff8M7>0WQGMBF47>1
+I1SgdR]]=I=iB8[mjOo0_K3
+R2
+R0
+w1654458463
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/data_memory.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/data_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/data_memory.v|
+!i113 1
+R5
+R6
+R7
+vimmediate_extender
+R1
+!i10b 1
+!s100 8WczA8dkV1];UdeLK453F2
+IGD]S59>WfiEloT[mjXC@U1
+R2
+R0
+w1653759088
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/immediate_extender.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/immediate_extender.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/immediate_extender.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/immediate_extender.v|
+!i113 1
+R5
+R6
+R7
+vmulticycle_computer_all
+Z8 !s110 1654458719
+!i10b 1
+!s100 4WVchBgcMA3dQ5VWdCS000
+IP=^DOCIAl84@0@I3C=h7O3
+R2
+R0
+w1654380536
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_all.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_all.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_all.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_all.v|
+!i113 1
+R5
+R6
+R7
+vmulticycle_computer_controller_all
+R8
+!i10b 1
+!s100 BlOdhi3eDzAI]4acS2NL70
+IOVhai6S8l`B;:G2`PKS@11
+R2
+R0
+w1654375459
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_all.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_all.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1654458719.000000
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_all.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_all.v|
+!i113 1
+R5
+R6
+R7
+vmulticycle_computer_controller_ALU_decoder
+R8
+!i10b 1
+!s100 o09]8gOU4_OJ;RPdb:FZN1
+IP8OlWN9;`FBd`38B8OOBo0
+R2
+R0
+w1654458657
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_ALU_decoder.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_ALU_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_ALU_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_ALU_decoder.v|
+!i113 1
+R5
+R6
+R7
+nmulticycle_computer_controller_@a@l@u_decoder
+vmulticycle_computer_controller_condition_check
+Z10 !s110 1654458717
+!i10b 1
+!s100 nQS4cH1o260aC6YeFCNl92
+IRndGhQ^<YLXZJAHkYI3C90
+R2
+R0
+w1654364464
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_condition_check.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_condition_check.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1654458717.000000
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_condition_check.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_condition_check.v|
+!i113 1
+R5
+R6
+R7
+vmulticycle_computer_controller_state_dependent_control
+R8
+!i10b 1
+!s100 ZYkQWokYZ?ZcPzO;he>2V2
+IX;C:353eQohJjWbhahYGH0
+R2
+R0
+w1654445597
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_state_dependent_control.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_state_dependent_control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_state_dependent_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_state_dependent_control.v|
+!i113 1
+R5
+R6
+R7
+vmulticycle_computer_controller_xPSR_write
+R8
+!i10b 1
+!s100 igW_ML^7Lgf4jD5C54dde0
+I6@;[BZk5@QkLiZ@VAo67X0
+R2
+R0
+w1654362890
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_xPSR_write.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_xPSR_write.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_xPSR_write.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_controller_xPSR_write.v|
+!i113 1
+R5
+R6
+R7
+nmulticycle_computer_controller_x@p@s@r_write
+vmulticycle_computer_datapath_verilog
+R10
+!i10b 1
+!s100 Jhmd;UD1[C<HhCcEBzSh[2
+I9WS2Tnf:a@@4O]Z4@1^X41
+R2
+R0
+w1654443986
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_datapath_verilog.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_datapath_verilog.v
+L0 19
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_datapath_verilog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_computer_datapath_verilog.v|
+!i113 1
+R5
+R6
+R7
+vmulticycle_controller_instruction_decoder
+R8
+!i10b 1
+!s100 ZQWWj@VQP4hNhJS_ce=?a3
+If9lgfVUkDH_KiP_02M2Yb0
+R2
+R0
+w1654378433
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_controller_instruction_decoder.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_controller_instruction_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_controller_instruction_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_controller_instruction_decoder.v|
+!i113 1
+R5
+R6
+R7
+vmulticycle_controller_state_machine
+R8
+!i10b 1
+!s100 CH86j5I9HRJ:z6kL>0Pz;0
+Ia54?J81Y18am8GOS5mL`H1
+R2
+R0
+w1654384509
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_controller_state_machine.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_controller_state_machine.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_controller_state_machine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/multicycle_controller_state_machine.v|
+!i113 1
+R5
+R6
+R7
+vregister_file
+R1
+!i10b 1
+!s100 :P]WJ<_B`^<nI1R@87MSQ2
+Imm;dJa20f=<Hh;J<9TfRg3
+R2
+R0
+w1654213971
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/register_file.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/register_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/register_file.v|
+!i113 1
+R5
+R6
+R7
+vregisters_two
+R1
+!i10b 1
+!s100 1ZOEz<nM?SkI3ec=U[C4L3
+I?nZQJY^5AXM>@Z?Cc2[1;2
+R2
+R0
+w1648402007
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/registers_two.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/registers_two.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/registers_two.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/registers_two.v|
+!i113 1
+R5
+R6
+R7
+vunified_multicycle_computer_tb
+!s110 1654458731
+!i10b 1
+!s100 fHlkJZLH1gfKRmW6^l5I83
+IigMZ7T^mM`fLFBIJTOLmA2
+R2
+R0
+w1654451670
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/unified_multicycle_computer_tb.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/unified_multicycle_computer_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1654458731.000000
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/unified_multicycle_computer_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/unified_multicycle_computer_tb.v|
+!i113 1
+o-work work
+R7
+vw_bit_four_to_one_mux
+R1
+!i10b 1
+!s100 `6@HMcSL0LCD;2]M@G4oM1
+IUj04HK;0<>dLDGL_:IjnD0
+R2
+R0
+w1648401519
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/w_bit_four_to_one_mux.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/w_bit_four_to_one_mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/w_bit_four_to_one_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/w_bit_four_to_one_mux.v|
+!i113 1
+R5
+R6
+R7
+vw_bit_two_to_one_mux
+R1
+!i10b 1
+!s100 EaVoKzM:b[99hM5c9502S1
+IPA9?>PofSWXUhN1THCFFC0
+R2
+R0
+w1648401464
+8C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/w_bit_two_to_one_mux.v
+FC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/w_bit_two_to_one_mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/w_bit_two_to_one_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file|C:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/w_bit_two_to_one_mux.v|
+!i113 1
+R5
+R6
+R7

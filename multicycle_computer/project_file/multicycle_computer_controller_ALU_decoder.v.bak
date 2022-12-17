@@ -1,0 +1,9 @@
+module multicycle_computer_controller_ALU_decoder (
+	INSTRUCTION, 
+	current_state 
+	ALUop
+); 
+	input [31:0]INSTRUCTION; 
+	input [3:0]current_state; 
+	output [2:0]ALUop 
+endmodule 

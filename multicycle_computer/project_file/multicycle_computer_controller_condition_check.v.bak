@@ -1,0 +1,9 @@
+module multicycle_computer_controller_condition_check (
+	INSTRUCTION, 
+	BranchTaken 
+); 
+	input [31:0]INSTRUCTION; 
+	output BranchTaken; 
+	
+
+endmodule 

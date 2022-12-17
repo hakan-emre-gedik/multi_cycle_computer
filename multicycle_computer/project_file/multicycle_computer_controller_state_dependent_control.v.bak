@@ -1,0 +1,6 @@
+module multicycle_computer_controller_state_dependent_control (
+
+
+); 
+
+endmodule

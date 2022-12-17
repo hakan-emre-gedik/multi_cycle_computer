@@ -1,0 +1,12 @@
+module multicycle_controller_instruction_decoder (
+	INSTRUCTION, 
+	RegSrc, 
+	FlagUpdate
+);  
+	
+	input [31:0]INSTRUCTION; 
+	output [1:0]RegSrc; 
+	output FlagUpdate; 
+
+
+endmodule 

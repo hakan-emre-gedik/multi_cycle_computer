@@ -1,0 +1,180 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hemre/OneDrive/Belgeler/multicycle_computer/project_file/simulation/qsim
+vbarrel_shifter
+Z1 !s110 1653608853
+!i10b 1
+!s100 jYDmP4imDbXb5V1FQ@92A2
+I:6S09YgNP75[zz8E`5HEb0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1653608852
+Z3 8multicycle_computer.vo
+Z4 Fmulticycle_computer.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1653608853.000000
+Z8 !s107 multicycle_computer.vo|
+Z9 !s90 -work|work|multicycle_computer.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vbarrel_shifter_vlg_vec_tst
+R1
+!i10b 1
+!s100 M1no9H[_ZcOSoHLL^BdWN1
+I9M]f^cgf=]KMZ^[H3Bg4m1
+R2
+R0
+w1653608850
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vmulticycle_computer_controller_ALU_decoder
+Z13 !s110 1654378691
+!i10b 1
+!s100 Zdb5;YL]IjXOKzFhUBXHX3
+INe>Sj1]L18cTle8fBFQ`;3
+R2
+R0
+w1654378690
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1654378691.000000
+R8
+R9
+!i113 1
+R10
+R11
+nmulticycle_computer_controller_@a@l@u_decoder
+vmulticycle_computer_controller_ALU_decoder_vlg_vec_tst
+R13
+!i10b 1
+!s100 7mC:O6oo@A3g@E<oDF<BN0
+I@9Qo?K9gB6MI7iJ?JLM^M3
+R2
+R0
+w1654378688
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R10
+R11
+nmulticycle_computer_controller_@a@l@u_decoder_vlg_vec_tst
+vmulticycle_computer_controller_state_dependent_control
+Z15 !s110 1654379177
+!i10b 1
+!s100 B1]B[a3<>dFUMkdJii[D:3
+I10Lj^6R_TQD`O_eLJdWcY3
+R2
+R0
+w1654379175
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1654379177.000000
+R8
+R9
+!i113 1
+R10
+R11
+vmulticycle_computer_controller_state_dependent_control_vlg_vec_tst
+R15
+!i10b 1
+!s100 8CgUF7BPhX96mR5MmKjF^3
+IlG=ee[om9`09OI7>IK5^N1
+R2
+R0
+w1654379173
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R10
+R11
+vregister_file
+Z17 !s110 1653611134
+!i10b 1
+!s100 KYdk0=Ja^WXMOPe@Rk17E0
+I]9DNchZY[PEPA=CLNfjg;1
+R2
+R0
+w1653611133
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z18 !s108 1653611134.000000
+R8
+R9
+!i113 1
+R10
+R11
+vregister_file_vlg_vec_tst
+R17
+!i10b 1
+!s100 :gNecn76Q6zUnW3agf7F40
+IaRWYHlaHACHHV4;iS60P]2
+R2
+R0
+w1653611131
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R18
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11

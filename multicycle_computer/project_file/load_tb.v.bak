@@ -1,0 +1,30 @@
+module load_tb (); 
+	input clock, reset;
+	output wire [31:0]INSTRUCTION_OUT; 
+	output wire [3:0]FLAGS; 
+
+	reg A3Src, AdrSrc, FlagUpdate, IRWrite, MemWrite, PCWrite, RegWrite, WD3Src; 
+	reg [1:0]ALUSrcA, ALUSrcB, ResultSrc, RegSrc; 
+	reg [2:0]ALUop; 
+	reg [7:0]R0_out, R1_out;  
+
+
+// instantiate the datapath 
+multicycle_computer_datapath (
+	.A3Src(A3Src), .AdrSrc(AdrSrc), .FlagUpdate(FlagUpdate), .IRWrite(IRWrite),
+	.MemWrite(MemWrite), .PCWrite(PCWrite), .RegWrite(RegWrite), .WD3Src(WD3Src), 
+	.ALUSrcA(ALUSrcA), .ALUSrcB(ALUSrcB), .ResultSrc(ResultSrc), .ALUop(ALUop), 
+	.RegSrc(RegSrc), .INSTRUCTION_OUT(INSTRUCTION_OUT), .FLAGS(FLAGS), 
+	.R0_out(R0_out), .R1_out(R1_out)
+);  
+
+	initial begin 
+	
+	end 
+	
+	always begin 
+		clock = ~clock; #10; 
+	end 
+
+
+endmodule 

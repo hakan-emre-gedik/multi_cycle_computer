@@ -1,0 +1,73 @@
+initial begin 
+		// INSTRUCTION SECTION 
+		mem[0] = 32'h03C00005; // MOV R0, #5
+		mem[1] = 32'hE900001E; // BL #30 (2's complement)
+		mem[2] = 32'hE9000021; // BL #33 (Array sum)
+		mem[3] = 32'hE900002E; // BL #46 (Evennes-oddity check) 
+		mem[4] = 32'h03C01004; // MOV R1, #0
+		mem[5] = 32'h03C01005; // MOV R1, #0
+		mem[6] = 32'h03C01006; // MOV R1, #0
+		mem[7] = 32'h03C01007; // MOV R1, #0
+		mem[8] = 32'h03C01008; // MOV R1, #0
+		
+		
+		//*************************************************************************
+			// 2's complement subroutine
+				// take R0 as the paramater and leave its complement to R0 
+		mem[32] = 32'h03C01000; // MOV R1, #0 
+		mem[33] = 32'h00410000; // SUB R0, R1, R0
+		mem[34] = 32'h0401607E; // STR R6, [R1, #127] (MEM[127] <- LR)
+		mem[35] = 32'hEA00007E; // BIND #127 (PC <- LR)
+					// Last two operations(mem 34, 35) are for BX LR 
+		//*************************************************************************
+		
+		//*************************************************************************
+			// Array sum subroutine 
+				// leave the sum to R0  
+		mem[36] = 32'h03C00000; // MOV R0, #0  
+		mem[37] = 32'h03C02000; // MOV R2, #0 
+		mem[38] = 32'h04121040; // LDR R1, [R2, #64]
+		mem[39] = 32'h00810000;  // ADD R0, R0, R1 (NUM 1)
+		mem[40] = 32'h04121041; // LDR R1, [R2, #65]
+		mem[41] = 32'h00810000; // ADD R0, R0, R1 (NUM2)
+		mem[42] = 32'h04121042; // LDR R1, [R2, #66]
+		mem[43] = 32'h00810000; // ADD R0, R0, R1 (NUM3)
+		mem[44] = 32'h04121043; // LDR R1, [R2, #67]
+		mem[45] = 32'h00810000; // ADD R0, R0, R1 (NUM4)
+		mem[46] = 32'h04121044; // LDR R1, [R2, #68]
+		mem[47] = 32'h00810000; // ADD R0, R0, R1 (NUM5)
+		mem[48] = 32'h0401607E; // STR R6, [R2, #127] (MEM[127] <- LR)
+		mem[49] = 32'hEA00007E; // BIND #127 (PC <- LR)
+		
+					// Last two operations(mem 48, 49) are for BX LR 
+		//*************************************************************************
+			
+			// Evennes-oddity check subroutine 
+				//	R0 has the value to be checked whether it is even or not 
+		mem[50] = 32'h03C02000; // MOV R2, #0  
+		mem[51] = 32'h03C01001; // MOV R1, #1 
+		mem[52] = 32'h00113000; // ANDS R3, R1, R0 
+		mem[53] = 32'h18000005; // BNE #5 
+		mem[54] = 32'h03C0101E; // MOV R1, #(0001.1110)
+		mem[55] = 32'h00010000; // AND R0, R0, R1
+		mem[56] = 32'h01A00100; // LSL R0, R0, #2 
+		mem[57] = 32'h0402607E; // STR R6, [R2, #127] (MEM[127] <- LR)
+		mem[58] = 32'hEA00007E; // BIND #127 (MEM[127] <- LR)
+		mem[59] = 32'h01A00090; // LSR R0, R0, #1 
+		mem[60] = 32'h01A00240; // ROR R0, R0, #4 
+		mem[61] = 32'h0402607E; // STR R6, [R2, #127] (MEM[127] <- LR)
+		mem[62] = 32'hEA00007E; // BIND #127 (PC <- LR)
+		
+					// Last two operations(mem 48, 49) are for BX LR 
+		//*************************************************************************
+		
+		// DATA SECTION 
+		mem[64] = 32'd24; 
+		mem[65] = 32'd24;
+		mem[66] = 32'd25;
+		mem[67] = 32'd26;
+		mem[68] = 32'd27;
+		mem[69] = 32'd28;
+		mem[70] = 32'd29;
+		mem[71] = 32'd3; 
+	end 

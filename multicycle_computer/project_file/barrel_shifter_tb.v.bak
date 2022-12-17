@@ -1,0 +1,14 @@
+module barrel_shifter_tb (); 
+	reg [7:0]data_in; 
+	reg [4:0]shamt; 
+	reg [2:0]shift_type; 
+	wire [7:0] data_out; 
+
+barrel_shifter dut(
+		data_in, 
+		shift_type, 
+		shamt, 
+		data_out
+);
+
+endmodule 

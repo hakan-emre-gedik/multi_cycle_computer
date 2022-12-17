@@ -1,0 +1,9 @@
+module multicycle_controller_state_machine(
+	clock, 
+	reset, 
+	INSTRUCTION, 
+	current_state
+); 
+
+
+endmodule 

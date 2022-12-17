@@ -1,0 +1,473 @@
+$comment
+	File created using the following command:
+		vcd file multicycle_computer.msim.vcd -direction
+$end
+$date
+	Sun Jun 05 00:46:17 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module multicycle_computer_controller_state_dependent_control_vlg_vec_tst $end
+$var reg 4 ! FLAGS [3:0] $end
+$var reg 32 " INSTRUCTION [31:0] $end
+$var reg 4 # current_state [3:0] $end
+$var wire 1 $ A3Src $end
+$var wire 1 % ALUSrcA [1] $end
+$var wire 1 & ALUSrcA [0] $end
+$var wire 1 ' ALUSrcB [1] $end
+$var wire 1 ( ALUSrcB [0] $end
+$var wire 1 ) AdrSrc $end
+$var wire 1 * IRWrite $end
+$var wire 1 + MemWrite $end
+$var wire 1 , PCWrite $end
+$var wire 1 - RegWrite $end
+$var wire 1 . ResultSrc [1] $end
+$var wire 1 / ResultSrc [0] $end
+$var wire 1 0 WD3Src $end
+
+$scope module i1 $end
+$var wire 1 1 gnd $end
+$var wire 1 2 vcc $end
+$var wire 1 3 unknown $end
+$var tri1 1 4 devclrn $end
+$var tri1 1 5 devpor $end
+$var tri1 1 6 devoe $end
+$var wire 1 7 FLAGS[0]~input_o $end
+$var wire 1 8 FLAGS[1]~input_o $end
+$var wire 1 9 FLAGS[2]~input_o $end
+$var wire 1 : FLAGS[3]~input_o $end
+$var wire 1 ; INSTRUCTION[0]~input_o $end
+$var wire 1 < INSTRUCTION[1]~input_o $end
+$var wire 1 = INSTRUCTION[2]~input_o $end
+$var wire 1 > INSTRUCTION[3]~input_o $end
+$var wire 1 ? INSTRUCTION[4]~input_o $end
+$var wire 1 @ INSTRUCTION[5]~input_o $end
+$var wire 1 A INSTRUCTION[6]~input_o $end
+$var wire 1 B INSTRUCTION[7]~input_o $end
+$var wire 1 C INSTRUCTION[8]~input_o $end
+$var wire 1 D INSTRUCTION[9]~input_o $end
+$var wire 1 E INSTRUCTION[10]~input_o $end
+$var wire 1 F INSTRUCTION[11]~input_o $end
+$var wire 1 G INSTRUCTION[12]~input_o $end
+$var wire 1 H INSTRUCTION[13]~input_o $end
+$var wire 1 I INSTRUCTION[14]~input_o $end
+$var wire 1 J INSTRUCTION[15]~input_o $end
+$var wire 1 K INSTRUCTION[16]~input_o $end
+$var wire 1 L INSTRUCTION[17]~input_o $end
+$var wire 1 M INSTRUCTION[18]~input_o $end
+$var wire 1 N INSTRUCTION[19]~input_o $end
+$var wire 1 O INSTRUCTION[20]~input_o $end
+$var wire 1 P INSTRUCTION[21]~input_o $end
+$var wire 1 Q INSTRUCTION[22]~input_o $end
+$var wire 1 R INSTRUCTION[23]~input_o $end
+$var wire 1 S INSTRUCTION[25]~input_o $end
+$var wire 1 T INSTRUCTION[28]~input_o $end
+$var wire 1 U INSTRUCTION[29]~input_o $end
+$var wire 1 V INSTRUCTION[30]~input_o $end
+$var wire 1 W INSTRUCTION[31]~input_o $end
+$var wire 1 X INSTRUCTION[26]~input_o $end
+$var wire 1 Y WD3Src~output_o $end
+$var wire 1 Z A3Src~output_o $end
+$var wire 1 [ IRWrite~output_o $end
+$var wire 1 \ PCWrite~output_o $end
+$var wire 1 ] AdrSrc~output_o $end
+$var wire 1 ^ MemWrite~output_o $end
+$var wire 1 _ RegWrite~output_o $end
+$var wire 1 ` ALUSrcA[0]~output_o $end
+$var wire 1 a ALUSrcA[1]~output_o $end
+$var wire 1 b ALUSrcB[0]~output_o $end
+$var wire 1 c ALUSrcB[1]~output_o $end
+$var wire 1 d ResultSrc[0]~output_o $end
+$var wire 1 e ResultSrc[1]~output_o $end
+$var wire 1 f INSTRUCTION[24]~input_o $end
+$var wire 1 g current_state[3]~input_o $end
+$var wire 1 h current_state[1]~input_o $end
+$var wire 1 i current_state[2]~input_o $end
+$var wire 1 j current_state[0]~input_o $end
+$var wire 1 k WD3Src~0_combout $end
+$var wire 1 l INSTRUCTION[27]~input_o $end
+$var wire 1 m A3Src~0_combout $end
+$var wire 1 n Equal0~0_combout $end
+$var wire 1 o PCWrite~0_combout $end
+$var wire 1 p AdrSrc~0_combout $end
+$var wire 1 q Equal0~1_combout $end
+$var wire 1 r RegWrite~0_combout $end
+$var wire 1 s ALUSrcA~0_combout $end
+$var wire 1 t ALUSrcA~1_combout $end
+$var wire 1 u ALUSrcB~0_combout $end
+$var wire 1 v ALUSrcB~1_combout $end
+$var wire 1 w ResultSrc~0_combout $end
+$var wire 1 x ResultSrc~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b100000100000000000001000000 "
+b0 #
+0$
+0&
+0%
+1(
+1'
+0)
+1*
+0+
+1,
+0-
+0/
+1.
+00
+01
+12
+x3
+14
+15
+16
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+1A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+1O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+1X
+0Y
+0Z
+1[
+1\
+0]
+0^
+0_
+0`
+0a
+1b
+1c
+0d
+1e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+1n
+1o
+0p
+0q
+0r
+0s
+0t
+1u
+1v
+0w
+1x
+$end
+#50000
+b1 #
+1j
+0o
+0n
+0[
+0\
+0,
+0*
+#100000
+b11 #
+b10 #
+0j
+1h
+0x
+0v
+1s
+1`
+0c
+0e
+0.
+0'
+1&
+#150000
+b11 #
+1j
+1p
+1]
+1)
+#200000
+b111 #
+b101 #
+b100 #
+0j
+0h
+1i
+1w
+1r
+0p
+0]
+1_
+1d
+1/
+1-
+0)
+#250000
+b101 #
+1j
+0r
+1q
+1p
+1]
+1^
+0_
+0-
+1+
+1)
+#300000
+b111 #
+b110 #
+0j
+1h
+0w
+0u
+0q
+0p
+0]
+0^
+0b
+0d
+0/
+0(
+0+
+0)
+#350000
+b111 #
+1j
+1t
+0s
+0`
+1a
+1%
+0&
+#400000
+b1111 #
+b1011 #
+b1001 #
+b1000 #
+0j
+0h
+0i
+1g
+1u
+0t
+1s
+1`
+0a
+1b
+1(
+0%
+1&
+#450000
+b1001 #
+1j
+1x
+0u
+1t
+0s
+1p
+1]
+0`
+1a
+0b
+1e
+1.
+0(
+1%
+0&
+1)
+#500000
+b1011 #
+b1010 #
+0j
+1h
+1u
+0t
+1s
+0p
+1o
+1\
+0]
+1`
+0a
+1b
+1(
+0%
+1&
+0)
+1,
+#550000
+b1011 #
+1j
+1t
+0s
+1p
+0o
+0\
+1]
+0`
+1a
+1%
+0&
+1)
+0,
+#600000
+b1111 #
+b1101 #
+b1100 #
+0j
+0h
+1i
+0x
+1v
+0u
+0t
+1s
+0p
+0]
+1`
+0a
+0b
+1c
+0e
+0.
+1'
+0(
+0%
+1&
+0)
+#650000
+b1101 #
+1j
+1x
+0s
+1o
+1\
+0`
+1e
+1.
+0&
+1,
+#700000
+b1111 #
+b1110 #
+0j
+1h
+0x
+0v
+1u
+1s
+1r
+0o
+0\
+1_
+1`
+1b
+0c
+0e
+0.
+0'
+1(
+1&
+1-
+0,
+#750000
+b1111 #
+1j
+0r
+0_
+0-
+#800000
+b111 #
+b11 #
+b1 #
+b0 #
+0j
+0h
+0i
+0g
+1x
+1v
+0s
+1o
+1n
+1[
+1\
+0`
+1c
+1e
+1.
+1'
+0&
+1,
+1*
+#850000
+b1 #
+1j
+0o
+0n
+0[
+0\
+0,
+0*
+#900000
+b11 #
+b10 #
+0j
+1h
+0x
+0v
+1s
+1`
+0c
+0e
+0.
+0'
+1&
+#950000
+b11 #
+1j
+1p
+1]
+1)
+#1000000

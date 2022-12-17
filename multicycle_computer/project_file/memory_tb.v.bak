@@ -1,0 +1,8 @@
+module memory_tb (); 
+
+data_memory(
+	data_out, 
+	data_in, 
+	address_in, 
+	we,
+	) 

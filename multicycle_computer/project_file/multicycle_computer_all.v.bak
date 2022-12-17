@@ -1,0 +1,7 @@
+module multi_cycle_computer_all (
+	clock, 
+	reset
+); 
+
+
+input clock, reset; 

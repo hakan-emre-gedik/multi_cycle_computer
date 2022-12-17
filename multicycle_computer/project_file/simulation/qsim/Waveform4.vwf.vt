@@ -1,0 +1,245 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/05/2022 00:38:08"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          multicycle_computer_controller_ALU_decoder
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module multicycle_computer_controller_ALU_decoder_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [31:0] INSTRUCTION;
+reg [3:0] current_state;
+// wires                                               
+wire [2:0] ALUop;
+
+// assign statements (if any)                          
+multicycle_computer_controller_ALU_decoder i1 (
+// port map - connection between master ports and signals/registers   
+	.ALUop(ALUop),
+	.INSTRUCTION(INSTRUCTION),
+	.current_state(current_state)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// INSTRUCTION[ 31 ]
+initial
+begin
+	INSTRUCTION[31] = 1'b0;
+end 
+// INSTRUCTION[ 30 ]
+initial
+begin
+	INSTRUCTION[30] = 1'b0;
+end 
+// INSTRUCTION[ 29 ]
+initial
+begin
+	INSTRUCTION[29] = 1'b0;
+end 
+// INSTRUCTION[ 28 ]
+initial
+begin
+	INSTRUCTION[28] = 1'b0;
+end 
+// INSTRUCTION[ 27 ]
+initial
+begin
+	INSTRUCTION[27] = 1'b0;
+end 
+// INSTRUCTION[ 26 ]
+initial
+begin
+	INSTRUCTION[26] = 1'b0;
+end 
+// INSTRUCTION[ 25 ]
+initial
+begin
+	INSTRUCTION[25] = 1'b0;
+end 
+// INSTRUCTION[ 24 ]
+initial
+begin
+	INSTRUCTION[24] = 1'b1;
+end 
+// INSTRUCTION[ 23 ]
+initial
+begin
+	INSTRUCTION[23] = 1'b1;
+end 
+// INSTRUCTION[ 22 ]
+initial
+begin
+	INSTRUCTION[22] = 1'b0;
+end 
+// INSTRUCTION[ 21 ]
+initial
+begin
+	INSTRUCTION[21] = 1'b0;
+end 
+// INSTRUCTION[ 20 ]
+initial
+begin
+	INSTRUCTION[20] = 1'b0;
+end 
+// INSTRUCTION[ 19 ]
+initial
+begin
+	INSTRUCTION[19] = 1'b0;
+end 
+// INSTRUCTION[ 18 ]
+initial
+begin
+	INSTRUCTION[18] = 1'b0;
+end 
+// INSTRUCTION[ 17 ]
+initial
+begin
+	INSTRUCTION[17] = 1'b0;
+end 
+// INSTRUCTION[ 16 ]
+initial
+begin
+	INSTRUCTION[16] = 1'b1;
+end 
+// INSTRUCTION[ 15 ]
+initial
+begin
+	INSTRUCTION[15] = 1'b0;
+end 
+// INSTRUCTION[ 14 ]
+initial
+begin
+	INSTRUCTION[14] = 1'b0;
+end 
+// INSTRUCTION[ 13 ]
+initial
+begin
+	INSTRUCTION[13] = 1'b0;
+end 
+// INSTRUCTION[ 12 ]
+initial
+begin
+	INSTRUCTION[12] = 1'b0;
+end 
+// INSTRUCTION[ 11 ]
+initial
+begin
+	INSTRUCTION[11] = 1'b0;
+end 
+// INSTRUCTION[ 10 ]
+initial
+begin
+	INSTRUCTION[10] = 1'b0;
+end 
+// INSTRUCTION[ 9 ]
+initial
+begin
+	INSTRUCTION[9] = 1'b0;
+end 
+// INSTRUCTION[ 8 ]
+initial
+begin
+	INSTRUCTION[8] = 1'b0;
+end 
+// INSTRUCTION[ 7 ]
+initial
+begin
+	INSTRUCTION[7] = 1'b0;
+end 
+// INSTRUCTION[ 6 ]
+initial
+begin
+	INSTRUCTION[6] = 1'b0;
+end 
+// INSTRUCTION[ 5 ]
+initial
+begin
+	INSTRUCTION[5] = 1'b0;
+end 
+// INSTRUCTION[ 4 ]
+initial
+begin
+	INSTRUCTION[4] = 1'b0;
+end 
+// INSTRUCTION[ 3 ]
+initial
+begin
+	INSTRUCTION[3] = 1'b0;
+end 
+// INSTRUCTION[ 2 ]
+initial
+begin
+	INSTRUCTION[2] = 1'b0;
+end 
+// INSTRUCTION[ 1 ]
+initial
+begin
+	INSTRUCTION[1] = 1'b1;
+end 
+// INSTRUCTION[ 0 ]
+initial
+begin
+	INSTRUCTION[0] = 1'b0;
+end 
+// current_state[ 3 ]
+initial
+begin
+	repeat(6)
+	begin
+		current_state[3] = 1'b0;
+		current_state[3] = #80000 1'b1;
+		# 80000;
+	end
+	current_state[3] = 1'b0;
+end 
+// current_state[ 2 ]
+initial
+begin
+	repeat(12)
+	begin
+		current_state[2] = 1'b0;
+		current_state[2] = #40000 1'b1;
+		# 40000;
+	end
+	current_state[2] = 1'b0;
+end 
+// current_state[ 1 ]
+always
+begin
+	current_state[1] = 1'b0;
+	current_state[1] = #20000 1'b1;
+	#20000;
+end 
+// current_state[ 0 ]
+always
+begin
+	current_state[0] = 1'b0;
+	current_state[0] = #10000 1'b1;
+	#10000;
+end 
+endmodule
+
